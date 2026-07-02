@@ -1,5 +1,5 @@
 /* GENERAL */
-section.[class^="note"] {
+section[class^="note"] {
     padding: 0 5px;
     border-top: 1px solid var(--color-border-dark-5);
     border-bottom: 1px solid var(--color-border-dark-5);
@@ -22,7 +22,7 @@ table.spell-list span.component {
 }
 
 /* PORTENT */
-[class^="dice-roll-columns"], [class*= " dice-roll-columns"] {
+[class^="dice-roll-columns"], [class*=" dice-roll-columns"] {
     margin: 0 5px 0 0 !important;
     float: left;
 }
